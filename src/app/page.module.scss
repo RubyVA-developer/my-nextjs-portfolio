@@ -1,0 +1,53 @@
+.header {
+}
+
+.headerInner {
+  position: relative;
+
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  max-width: var(--logo-max-width);
+}
+
+.headerMenu {
+}
+
+.headerMenuList {
+  display: flex;
+  align-items: center;
+}
+
+.headerMenuItem {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+
+  &:not(:last-child) {
+    margin-right: 48px;
+  }
+}
+
+.headerMenuLink {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.headerMenuBtn {
+  padding: 14px 32px;
+
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: lowercase;
+
+  background-color: transparent;
+  border: 2px solid var(--border-primary);
+  border-radius: var(--border-radius-btns-primary);
+  cursor: pointer;
+}

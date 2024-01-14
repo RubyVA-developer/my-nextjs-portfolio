@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+
+}
+
+.theme {
+  min-height: 100vh;
+
+  font-family: var(--main-font);
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: var(--fill-primary);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  font-family: inherit;
+}
